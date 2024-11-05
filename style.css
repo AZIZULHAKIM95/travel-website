@@ -60,6 +60,7 @@ nav > div> img{
     background-size: cover;
     position: relative;
     border-radius: 15px;
+    filter: drop-shadow(10px 10px 20px rgb(151, 144, 137));
  }
 
 .hero-text {
@@ -68,9 +69,22 @@ nav > div> img{
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: orangered;
+    color: whitesmoke;
+    filter: drop-shadow(10px 10px 20px black);
   }
 
  .banner-titel{
     font-size:  55px;
+}
+.button-all{
+
+    padding: 20px;
+}
+
+.button-body{
+    
+    font-size: 14px;
+    border-radius: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
